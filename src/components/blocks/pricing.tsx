@@ -11,40 +11,40 @@ import { cn } from "@/lib/utils";
 
 const plans = [
   {
-    name: "Free",
-    monthlyPrice: "$0",
-    yearlyPrice: "$0",
-    description: "Free for everyone",
+    name: "Mapa",
+    monthlyPrice: "04",
+    yearlyPrice: "04",
+    description: "Grátis para todos",
     features: [
-      "Unlimited members",
-      "2 teams",
-      "500 issues",
-      "Slack and Github integrations",
+      "4 funções no mapa",
+      "3 modos",
+      "Cérebro 3D",
+      "Relações e fontes registradas",
     ],
   },
   {
-    name: "Startup",
-    monthlyPrice: "$8",
-    yearlyPrice: "$6",
+    name: "Artigos",
+    monthlyPrice: "12",
+    yearlyPrice: "04",
     features: [
-      "All free plan features and...",
-      "Mainline AI",
-      "Unlimited teams",
-      "Unlimited issues and file uploads",
-      "Mainline Insights",
-      "Admin roles",
+      "Tudo do mapa e, além disso...",
+      "Guia de uso",
+      "Leituras breves",
+      "Funções executivas na sua rotina.",
+      "Riscos cognitivos",
+      "Referências",
     ],
   },
   {
-    name: "Enterprise",
-    monthlyPrice: "$8",
-    yearlyPrice: "$6",
+    name: "Ferramenta",
+    monthlyPrice: "12",
+    yearlyPrice: "04",
     features: [
-      "All free plan features and...",
-      "Mainline AI",
-      "Supermainline AGI",
-      "Free daily catered lunch",
-      "random HIPPA audits",
+      "Tudo do mapa e, além disso...",
+      "Guia de uso",
+      "Passos bem claros",
+      "Prioridade de um só foco",
+      "Rever passo a passo",
     ],
   },
 ];
@@ -57,12 +57,11 @@ export const Pricing = ({ className }: { className?: string }) => {
       <div className="container max-w-5xl">
         <div className="space-y-4 text-center">
           <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-            Pricing
+            Comece.
           </h2>
           <p className="text-muted-foreground mx-auto max-w-xl leading-snug text-balance">
-            Use Mainline for free with your whole team. Upgrade to enable
-            unlimited issues, enhanced security controls, and additional
-            features.
+            Cada modo é um filtro sobre o mesmo grafo; o fator no centro não
+            muda. Escolha onde quer começar e siga no seu ritmo, pouco a pouco.
           </p>
         </div>
 
@@ -71,7 +70,7 @@ export const Pricing = ({ className }: { className?: string }) => {
             <Card
               key={plan.name}
               className={`${
-                plan.name === "Startup"
+                plan.name === "Artigos"
                   ? "outline-primary origin-top outline-4"
                   : ""
               }`}
@@ -82,24 +81,24 @@ export const Pricing = ({ className }: { className?: string }) => {
                   <div className="space-y-1">
                     <div className="text-muted-foreground text-lg font-medium">
                       {isAnnual ? plan.yearlyPrice : plan.monthlyPrice}{" "}
-                      {plan.name !== "Free" && (
+                      {plan.name !== "Mapa" && (
                         <span className="text-muted-foreground">
-                          per user/
-                          {isAnnual ? "year" : "month"}
+                          por tema/
+                          {isAnnual ? "guia" : "texto"}
                         </span>
                       )}
                     </div>
                   </div>
                 </div>
 
-                {plan.name !== "Free" ? (
+                {plan.name !== "Mapa" ? (
                   <div className="flex items-center gap-2">
                     <Switch
                       checked={isAnnual}
                       onCheckedChange={() => setIsAnnual(!isAnnual)}
                       aria-label="Toggle annual billing"
                     />
-                    <span className="text-sm font-medium">Billed annually</span>
+                    <span className="text-sm font-medium">Contar em guias</span>
                   </div>
                 ) : (
                   <span className="text-muted-foreground text-sm">
@@ -121,9 +120,9 @@ export const Pricing = ({ className }: { className?: string }) => {
 
                 <Button
                   className="w-fit"
-                  variant={plan.name === "Startup" ? "default" : "outline"}
+                  variant={plan.name === "Artigos" ? "default" : "outline"}
                 >
-                  Get started
+                  Começar já.
                 </Button>
               </CardContent>
             </Card>

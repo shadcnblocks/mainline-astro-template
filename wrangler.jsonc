@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mainline-astro-template",
+  "compatibility_date": "2026-10-06",
+  // Site 100% estático (output: "static"): o Worker só serve os arquivos de ./dist.
+  // O build roda antes de deploy, versions upload e dev, inclusive no Workers Builds,
+  // então ./dist existe mesmo sem comando de build configurado no painel.
+  "build": {
+    "command": "npm run build",
+    "watch_dir": ["src", "public"]
+  },
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "observability": {
+    "enabled": true
+  }
+}

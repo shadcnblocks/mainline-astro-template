@@ -1,0 +1,1344 @@
+{
+  "regra": "Cada texto novo deve ter EXATAMENTE o mesmo número de caracteres do original. Cada imagem nova deve manter caminho, formato e dimensões.",
+  "textos": [
+    {
+      "id": "meta.title",
+      "arquivo": "src/consts.ts",
+      "secao": "Metadados (aba/SEO)",
+      "tipo": "title",
+      "original": "Mainline - Modern Astro Template",
+      "novo": "Risco Cognitivo - Mapa Cognitivo",
+      "caracteres": 32
+    },
+    {
+      "id": "meta.description",
+      "arquivo": "src/consts.ts",
+      "secao": "Metadados (aba/SEO)",
+      "tipo": "meta description",
+      "original": "A modern, fully featured Astro template built with Shadcn/UI, TailwindCSS and TypeScript, perfect for your next web application.",
+      "novo": "Gestão e controle de riscos cognitivos: entenda funções executivas, demandas e estratégias para transformar a intenção em ações.",
+      "caracteres": 128
+    },
+    {
+      "id": "hero.h1",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "h1",
+      "original": "Mainline Astro template",
+      "novo": "Intenção vira execução.",
+      "caracteres": 23
+    },
+    {
+      "id": "hero.sub",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "p",
+      "original": "Mainline is an open-source website template built with shadcn/ui, Tailwind 4 & Astro 5",
+      "novo": "Você sabe o que precisa fazer, mas nem sempre consegue sair do plano e ir para a ação?",
+      "caracteres": 86
+    },
+    {
+      "id": "hero.cta1",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "botão",
+      "original": "Get template",
+      "novo": "Abrir o mapa",
+      "caracteres": 12
+    },
+    {
+      "id": "hero.cta2",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "botão",
+      "original": "Built by shadcnblocks.com",
+      "novo": "Gestão de risco cognitivo",
+      "caracteres": 25
+    },
+    {
+      "id": "hero.item1.titulo",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "h2",
+      "original": "Tailored workflows",
+      "novo": "Planejar o caminho",
+      "caracteres": 18
+    },
+    {
+      "id": "hero.item1.desc",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "p",
+      "original": "Track progress across custom issue flows for your team.",
+      "novo": "Organizar etapas e decidir por onde começar uma tarefa.",
+      "caracteres": 55
+    },
+    {
+      "id": "hero.item2.titulo",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "h2",
+      "original": "Cross-team projects",
+      "novo": "Controle inibitório",
+      "caracteres": 19
+    },
+    {
+      "id": "hero.item2.desc",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "p",
+      "original": "Collaborate across teams and departments.",
+      "novo": "Conter distrações e sustentar o seu foco.",
+      "caracteres": 41
+    },
+    {
+      "id": "hero.item3.titulo",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "h2",
+      "original": "Milestones",
+      "novo": "Lembrar-se",
+      "caracteres": 10
+    },
+    {
+      "id": "hero.item3.desc",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "p",
+      "original": "Break projects down into concrete phases.",
+      "novo": "Manter as etapas na mente durante a ação.",
+      "caracteres": 41
+    },
+    {
+      "id": "hero.item4.titulo",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "h2",
+      "original": "Progress insights",
+      "novo": "Adaptar os planos",
+      "caracteres": 17
+    },
+    {
+      "id": "hero.item4.desc",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "p",
+      "original": "Track scope, velocity, and progress over time.",
+      "novo": "Mudar de direção sem perder a ordem da tarefa.",
+      "caracteres": 46
+    },
+    {
+      "id": "hero.img.alt",
+      "arquivo": "src/components/blocks/hero.tsx",
+      "secao": "Hero",
+      "tipo": "alt",
+      "original": "hero",
+      "novo": null,
+      "caracteres": 4
+    },
+    {
+      "id": "logos.h2",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "h2",
+      "original": "Powering the world's best product teams.",
+      "novo": "O tempo escapa. O que é urgente acumula.",
+      "caracteres": 40
+    },
+    {
+      "id": "logos.h2.span",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "span",
+      "original": "From next-gen startups to established enterprises.",
+      "novo": "Você começa, para, retoma e perde o ponto onde ia.",
+      "caracteres": 50
+    },
+    {
+      "id": "logos.empresa1",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Mercury",
+      "novo": null,
+      "caracteres": 7
+    },
+    {
+      "id": "logos.empresa2",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Watershed",
+      "novo": null,
+      "caracteres": 9
+    },
+    {
+      "id": "logos.empresa3",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Retool",
+      "novo": null,
+      "caracteres": 6
+    },
+    {
+      "id": "logos.empresa4",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Descript",
+      "novo": null,
+      "caracteres": 8
+    },
+    {
+      "id": "logos.empresa5",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Perplexity",
+      "novo": null,
+      "caracteres": 10
+    },
+    {
+      "id": "logos.empresa6",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Monzo",
+      "novo": null,
+      "caracteres": 5
+    },
+    {
+      "id": "logos.empresa7",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Ramp",
+      "novo": null,
+      "caracteres": 4
+    },
+    {
+      "id": "logos.empresa8",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Raycast",
+      "novo": null,
+      "caracteres": 7
+    },
+    {
+      "id": "logos.empresa9",
+      "arquivo": "src/components/blocks/logos.tsx",
+      "secao": "Logos",
+      "tipo": "nome (alt)",
+      "original": "Arc",
+      "novo": null,
+      "caracteres": 3
+    },
+    {
+      "id": "features.faixa",
+      "arquivo": "src/components/blocks/features.tsx",
+      "secao": "Features",
+      "tipo": "span (mono)",
+      "original": "MEASURE TWICE. CUT ONCE.",
+      "novo": "MAPA INTERATIVO: FUNÇÕES",
+      "caracteres": 24
+    },
+    {
+      "id": "features.h2",
+      "arquivo": "src/components/blocks/features.tsx",
+      "secao": "Features",
+      "tipo": "h2",
+      "original": "Made for modern product teams",
+      "novo": "Entenda sua execução no mapa.",
+      "caracteres": 29
+    },
+    {
+      "id": "features.p",
+      "arquivo": "src/components/blocks/features.tsx",
+      "secao": "Features",
+      "tipo": "p",
+      "original": "Mainline is built on the habits that make the best product teams successful: staying focused, moving quickly, and always aiming for high-quality work.",
+      "novo": "Veja a relação entre funções executivas, demandas e estratégias. Os pontos são seletores conceituais, não a localização anatômica isolada das funções.",
+      "caracteres": 150
+    },
+    {
+      "id": "features.card1",
+      "arquivo": "src/components/blocks/features.tsx",
+      "secao": "Features",
+      "tipo": "h3",
+      "original": "Purpose-built for product development",
+      "novo": "Gire o cérebro e selecione uma função",
+      "caracteres": 37
+    },
+    {
+      "id": "features.card2",
+      "arquivo": "src/components/blocks/features.tsx",
+      "secao": "Features",
+      "tipo": "h3",
+      "original": "Manage projects end-to-end",
+      "novo": "Veja demandas e obstáculos",
+      "caracteres": 26
+    },
+    {
+      "id": "features.card3",
+      "arquivo": "src/components/blocks/features.tsx",
+      "secao": "Features",
+      "tipo": "h3",
+      "original": "Build momentum and healthy habits",
+      "novo": "Veja relações entre fatores reais",
+      "caracteres": 33
+    },
+    {
+      "id": "ra.h2",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "h2",
+      "original": "Mainline your resource allocation and execution",
+      "novo": "Da intenção à execução, com estratégia e apoio.",
+      "caracteres": 47
+    },
+    {
+      "id": "ra.bloco1.titulo",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "h3",
+      "original": "Reusable issue templates.",
+      "novo": "Planejamento em destaque.",
+      "caracteres": 25
+    },
+    {
+      "id": "ra.bloco1.desc",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "span",
+      "original": "Draft lightning-fast documents with our Smart Instructions and Templates.",
+      "novo": "Demanda: ordenar as etapas e decidir por onde iniciar, uma etapa por vez.",
+      "caracteres": 73
+    },
+    {
+      "id": "ra.bloco2.titulo",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "h3",
+      "original": "Simplify your stack.",
+      "novo": "Estratégia de apoio.",
+      "caracteres": 20
+    },
+    {
+      "id": "ra.bloco2.desc",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "span",
+      "original": "No more Confluence, SharePoint, or Microsoft Word.",
+      "novo": "Quebrar em passos visíveis e manter um único foco.",
+      "caracteres": 50
+    },
+    {
+      "id": "ra.bloco3.titulo",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "h3",
+      "original": "Graveyard it.",
+      "novo": "Dificuldades.",
+      "caracteres": 13
+    },
+    {
+      "id": "ra.bloco3.desc",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "span",
+      "original": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do.",
+      "novo": "Inicia, para, muda de direção e perde o fio do que fazia antes.",
+      "caracteres": 63
+    },
+    {
+      "id": "ra.bloco4.titulo",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "h3",
+      "original": "Task discussions.",
+      "novo": "Relações do mapa.",
+      "caracteres": 17
+    },
+    {
+      "id": "ra.bloco4.desc",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "span",
+      "original": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "novo": "Sem decompor, se eleva o risco sobre o Planejamento (relação inferida).",
+      "caracteres": 71
+    },
+    {
+      "id": "ra.bloco5.titulo",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "h3",
+      "original": "Notifications.",
+      "novo": "Fontes claras.",
+      "caracteres": 14
+    },
+    {
+      "id": "ra.bloco5.desc",
+      "arquivo": "src/components/blocks/resource-allocation.tsx",
+      "secao": "Resource Allocation",
+      "tipo": "span",
+      "original": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.",
+      "novo": "O cérebro, o grafo e as fontes são reais; apenas o layout é provisório.",
+      "caracteres": 71
+    },
+    {
+      "id": "depo.h2",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "h2",
+      "original": "Trusted by product builders",
+      "novo": "Cenas que talvez você viva.",
+      "caracteres": 27
+    },
+    {
+      "id": "depo.p",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "p",
+      "original": "Mainline is built on the habits that make the best product teams successful: staying focused, moving quickly, and always aiming for high-quality work.",
+      "novo": "Para algumas pessoas, essas dificuldades podem estar relacionadas a demandas de planejar, organizar, iniciar, lembrar, controlar distrações e adaptar.",
+      "caracteres": 150
+    },
+    {
+      "id": "depo.botao",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "botão",
+      "original": "Read our Customer Stories",
+      "novo": "Ler o artigo sobre riscos",
+      "caracteres": 25
+    },
+    {
+      "id": "depo.card1.citacao",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "blockquote (x2 no carrossel)",
+      "original": "We're misusing Mainline as a CRM and it still works!",
+      "novo": "O tempo voa e os prazos se acumulam ao longo do dia.",
+      "caracteres": 52
+    },
+    {
+      "id": "depo.card1.autor",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "nome (x2)",
+      "original": "Amy Chase",
+      "novo": "Iniciação",
+      "caracteres": 9
+    },
+    {
+      "id": "depo.card1.cargo",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "cargo (x2)",
+      "original": "PM",
+      "novo": "TI",
+      "caracteres": 2
+    },
+    {
+      "id": "depo.card2.citacao",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "blockquote (x2 no carrossel)",
+      "original": "I was able to replace 80% of my team with Mainline bots.",
+      "novo": "Uma tarefa fácil vira várias e não sei por onde começar.",
+      "caracteres": 56
+    },
+    {
+      "id": "depo.card2.autor",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "nome (x2)",
+      "original": "Jonas Kotara",
+      "novo": "Planejamento",
+      "caracteres": 12
+    },
+    {
+      "id": "depo.card2.cargo",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "cargo (x2)",
+      "original": "Lead Engineer",
+      "novo": "rotina diária",
+      "caracteres": 13
+    },
+    {
+      "id": "depo.card3.citacao",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "blockquote (x2 no carrossel)",
+      "original": "Founder Mode is hard enough without having a really nice PM app.",
+      "novo": "Começo, interrompo, retomo e logo perco o ponto em que eu parei.",
+      "caracteres": 64
+    },
+    {
+      "id": "depo.card3.autor",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "nome (x2)",
+      "original": "Kevin Yam",
+      "novo": "Distração",
+      "caracteres": 9
+    },
+    {
+      "id": "depo.card3.cargo",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "cargo (x2)",
+      "original": "Founder",
+      "novo": "estudos",
+      "caracteres": 7
+    },
+    {
+      "id": "depo.card4.citacao",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "blockquote (x2 no carrossel)",
+      "original": "I can use the tool as a substitute from my PM.",
+      "novo": "Eu inicio, paro, troco de rumo e perco o foco.",
+      "caracteres": 46
+    },
+    {
+      "id": "depo.card4.autor",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "nome (x2)",
+      "original": "Kundo Marta",
+      "novo": "Memorização",
+      "caracteres": 11
+    },
+    {
+      "id": "depo.card4.cargo",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "cargo (x2)",
+      "original": "Founder",
+      "novo": "estudos",
+      "caracteres": 7
+    },
+    {
+      "id": "depo.empresa",
+      "arquivo": "src/components/blocks/testimonials.tsx",
+      "secao": "Depoimentos",
+      "tipo": "empresa (x8)",
+      "original": "Mercury Finance",
+      "novo": "Situação típica",
+      "caracteres": 15
+    },
+    {
+      "id": "preco.h2",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "h2",
+      "original": "Pricing",
+      "novo": "Comece.",
+      "caracteres": 7
+    },
+    {
+      "id": "preco.p",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "p",
+      "original": "Use Mainline for free with your whole team. Upgrade to enable unlimited issues, enhanced security controls, and additional features.",
+      "novo": "Cada modo é um filtro sobre o mesmo grafo; o fator no centro não muda. Escolha onde quer começar e siga no seu ritmo, pouco a pouco.",
+      "caracteres": 132
+    },
+    {
+      "id": "preco.plano1.nome",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "h3 (também usado na lógica)",
+      "original": "Free",
+      "novo": "Mapa",
+      "caracteres": 4
+    },
+    {
+      "id": "preco.plano2.nome",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "h3 (também usado na lógica)",
+      "original": "Startup",
+      "novo": "Artigos",
+      "caracteres": 7
+    },
+    {
+      "id": "preco.plano3.nome",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "h3 (também usado na lógica)",
+      "original": "Enterprise",
+      "novo": "Ferramenta",
+      "caracteres": 10
+    },
+    {
+      "id": "preco.plano1.desc",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "span",
+      "original": "Free for everyone",
+      "novo": "Grátis para todos",
+      "caracteres": 17
+    },
+    {
+      "id": "preco.p1.f1",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Unlimited members",
+      "novo": "4 funções no mapa",
+      "caracteres": 17
+    },
+    {
+      "id": "preco.p1.f2",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "2 teams",
+      "novo": "3 modos",
+      "caracteres": 7
+    },
+    {
+      "id": "preco.p1.f3",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "500 issues",
+      "novo": "Cérebro 3D",
+      "caracteres": 10
+    },
+    {
+      "id": "preco.p1.f4",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Slack and Github integrations",
+      "novo": "Relações e fontes registradas",
+      "caracteres": 29
+    },
+    {
+      "id": "preco.p2.f1",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "All free plan features and...",
+      "novo": "Tudo do mapa e, além disso...",
+      "caracteres": 29
+    },
+    {
+      "id": "preco.p2.f2",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Mainline AI",
+      "novo": "Guia de uso",
+      "caracteres": 11
+    },
+    {
+      "id": "preco.p2.f3",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Unlimited teams",
+      "novo": "Leituras breves",
+      "caracteres": 15
+    },
+    {
+      "id": "preco.p2.f4",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Unlimited issues and file uploads",
+      "novo": "Funções executivas na sua rotina.",
+      "caracteres": 33
+    },
+    {
+      "id": "preco.p2.f5",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Mainline Insights",
+      "novo": "Riscos cognitivos",
+      "caracteres": 17
+    },
+    {
+      "id": "preco.p2.f6",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Admin roles",
+      "novo": "Referências",
+      "caracteres": 11
+    },
+    {
+      "id": "preco.p3.f3",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Supermainline AGI",
+      "novo": "Passos bem claros",
+      "caracteres": 17
+    },
+    {
+      "id": "preco.p3.f4",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "Free daily catered lunch",
+      "novo": "Prioridade de um só foco",
+      "caracteres": 24
+    },
+    {
+      "id": "preco.p3.f5",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "item de lista",
+      "original": "random HIPPA audits",
+      "novo": "Rever passo a passo",
+      "caracteres": 19
+    },
+    {
+      "id": "preco.precos.mensal",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "$8",
+      "novo": "12",
+      "caracteres": 2
+    },
+    {
+      "id": "preco.precos.anual",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "$6",
+      "novo": "04",
+      "caracteres": 2
+    },
+    {
+      "id": "preco.per",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "per user/",
+      "novo": "por tema/",
+      "caracteres": 9
+    },
+    {
+      "id": "preco.ano",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "year",
+      "novo": "guia",
+      "caracteres": 4
+    },
+    {
+      "id": "preco.mes",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "month",
+      "novo": "texto",
+      "caracteres": 5
+    },
+    {
+      "id": "preco.toggle",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "Billed annually",
+      "novo": "Contar em guias",
+      "caracteres": 15
+    },
+    {
+      "id": "preco.cta",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "Get started",
+      "novo": "Começar já.",
+      "caracteres": 11
+    },
+    {
+      "id": "faq.h2",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "h2",
+      "original": "Got Questions?",
+      "novo": "Dúvidas comuns",
+      "caracteres": 14
+    },
+    {
+      "id": "faq.p",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "p",
+      "original": "If you can't find what you're looking for,",
+      "novo": "Se não encontrou aqui o que está buscando,",
+      "caracteres": 42
+    },
+    {
+      "id": "faq.link",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "link",
+      "original": "get in touch",
+      "novo": "fale conosco",
+      "caracteres": 12
+    },
+    {
+      "id": "faq.cat1",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "h3",
+      "original": "Support",
+      "novo": "Básicos",
+      "caracteres": 7
+    },
+    {
+      "id": "faq.cat2",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "h3",
+      "original": "Your account",
+      "novo": "Sobre o mapa",
+      "caracteres": 12
+    },
+    {
+      "id": "faq.cat3",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "h3",
+      "original": "Other questions",
+      "novo": "Outras questões",
+      "caracteres": 15
+    },
+    {
+      "id": "faq.pergunta1",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "pergunta",
+      "original": "How do I update my account without breaking my laptop?",
+      "novo": "O mapa cognitivo faz algum tipo de diagnóstico médico?",
+      "caracteres": 54
+    },
+    {
+      "id": "faq.pergunta2",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "pergunta",
+      "original": "Is support free, or do I need to Google everything?",
+      "novo": "Posso usar o mapa no lugar de uma avaliação médica?",
+      "caracteres": 51
+    },
+    {
+      "id": "faq.pergunta3",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "pergunta",
+      "original": "Are you going to be subsumed by AI?",
+      "novo": "O site substitui um acompanhamento?",
+      "caracteres": 35
+    },
+    {
+      "id": "faq.resposta",
+      "arquivo": "src/components/blocks/faq.tsx",
+      "secao": "FAQ",
+      "tipo": "resposta (x7)",
+      "original": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+      "novo": "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
+      "caracteres": 114
+    },
+    {
+      "id": "rodape.h2",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "h2",
+      "original": "Start your free trial today",
+      "novo": "Dê o seu próximo passo hoje",
+      "caracteres": 27
+    },
+    {
+      "id": "rodape.p",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "p",
+      "original": "Mainline is the fit-for-purpose tool for planning and building modern software products.",
+      "novo": "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
+      "caracteres": 88
+    },
+    {
+      "id": "menu.dd1.titulo",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "dropdown",
+      "original": "Modern product teams",
+      "novo": "Entenda sua execução",
+      "caracteres": 20
+    },
+    {
+      "id": "menu.dd1.desc",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "dropdown",
+      "original": "Mainline is built on the habits that make the best product teams successful",
+      "novo": "Explore as relações entre funções executivas, demandas e estratégias úteis.",
+      "caracteres": 75
+    },
+    {
+      "id": "menu.dd2.titulo",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "dropdown",
+      "original": "Resource Allocation",
+      "novo": "Estratégia de apoio",
+      "caracteres": 19
+    },
+    {
+      "id": "meta.description.curta",
+      "arquivo": "src/consts.ts",
+      "secao": "Metadados (aba/SEO)",
+      "tipo": "description (SITE_METADATA, OG, Twitter)",
+      "original": "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+      "novo": "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
+      "caracteres": 88
+    },
+    {
+      "id": "preco.precos.gratis",
+      "arquivo": "src/components/blocks/pricing.tsx",
+      "secao": "Preços",
+      "tipo": "rótulo",
+      "original": "$0",
+      "novo": "04",
+      "caracteres": 2
+    },
+    {
+      "id": "menu.recursos",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "Features",
+      "novo": "Recursos",
+      "caracteres": 8
+    },
+    {
+      "id": "menu.sobre",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "About Us",
+      "novo": "Proposta",
+      "caracteres": 8
+    },
+    {
+      "id": "menu.precos",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "Pricing",
+      "novo": "Começar",
+      "caracteres": 7
+    },
+    {
+      "id": "menu.contato",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "link",
+      "original": "Contact",
+      "novo": "Contato",
+      "caracteres": 7
+    },
+    {
+      "id": "menu.sr",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "sr-only",
+      "original": "Open main menu",
+      "novo": "Menu principal",
+      "caracteres": 14
+    },
+    {
+      "id": "rodape.produto",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Product",
+      "novo": "Produto",
+      "caracteres": 7
+    },
+    {
+      "id": "rodape.sobre",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "About Us",
+      "novo": "Proposta",
+      "caracteres": 8
+    },
+    {
+      "id": "rodape.precos",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Pricing",
+      "novo": "Começar",
+      "caracteres": 7
+    },
+    {
+      "id": "rodape.contato",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Contact",
+      "novo": "Contato",
+      "caracteres": 7
+    },
+    {
+      "id": "rodape.privacidade",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "link",
+      "original": "Privacy Policy",
+      "novo": "Dados pessoais",
+      "caracteres": 14
+    },
+    {
+      "id": "rodape.cta",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "tipo": "botão",
+      "original": "Get template",
+      "novo": "Abrir o mapa",
+      "caracteres": 12
+    },
+    {
+      "id": "menu.dd2.desc",
+      "arquivo": "src/components/blocks/navbar.tsx",
+      "secao": "Menu (GLOBAL)",
+      "tipo": "dropdown",
+      "original": "Mainline your resource allocation and execution",
+      "novo": "Da intenção à execução, com estratégia e apoio.",
+      "caracteres": 47
+    }
+  ],
+  "imagens": [
+    {
+      "id": "hero.img",
+      "arquivo": "public/hero.webp",
+      "secao": "Hero",
+      "formato": "webp",
+      "largura": 2360,
+      "altura": 1446,
+      "caixa_renderizada": "altura fixa 793px desktop / 550px mobile, object-cover top-left",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa1",
+      "arquivo": "public/logos/mercury.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 143,
+      "altura": 26,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa2",
+      "arquivo": "public/logos/watershed.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 156,
+      "altura": 32,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa3",
+      "arquivo": "public/logos/retool.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 114,
+      "altura": 22,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa4",
+      "arquivo": "public/logos/descript.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 112,
+      "altura": 27,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa5",
+      "arquivo": "public/logos/perplexity.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 141,
+      "altura": 32,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa6",
+      "arquivo": "public/logos/monzo.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 104,
+      "altura": 19,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa7",
+      "arquivo": "public/logos/ramp.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 105,
+      "altura": 28,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa8",
+      "arquivo": "public/logos/raycast.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 128,
+      "altura": 33,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "logos.empresa9",
+      "arquivo": "public/logos/arc.svg",
+      "secao": "Logos",
+      "formato": "svg (monocromático, invertido no dark)",
+      "largura": 90,
+      "altura": 28,
+      "caixa_renderizada": "renderizado com width/height do código",
+      "novo": null
+    },
+    {
+      "id": "features.card1",
+      "arquivo": "public/features/triage-card.svg",
+      "secao": "Features",
+      "formato": "svg",
+      "largura": 357,
+      "altura": 223,
+      "caixa_renderizada": "proporção 1.28:1, object-cover top-left",
+      "novo": null
+    },
+    {
+      "id": "features.card2",
+      "arquivo": "public/features/cycle-card.svg",
+      "secao": "Features",
+      "formato": "svg",
+      "largura": 358,
+      "altura": 249,
+      "caixa_renderizada": "proporção 1.28:1, object-cover top-left",
+      "novo": null
+    },
+    {
+      "id": "features.card3",
+      "arquivo": "public/features/overview-card.svg",
+      "secao": "Features",
+      "formato": "svg",
+      "largura": 358,
+      "altura": 272,
+      "caixa_renderizada": "proporção 1.28:1, object-cover top-left",
+      "novo": null
+    },
+    {
+      "id": "ra.img1",
+      "arquivo": "public/resource-allocation/templates.webp",
+      "secao": "Resource Allocation",
+      "formato": "webp",
+      "largura": 1485,
+      "altura": 558,
+      "caixa_renderizada": "object-contain",
+      "novo": null
+    },
+    {
+      "id": "ra.img2",
+      "arquivo": "public/resource-allocation/graveyard.webp",
+      "secao": "Resource Allocation",
+      "formato": "webp",
+      "largura": 981,
+      "altura": 840,
+      "caixa_renderizada": "object-contain",
+      "novo": null
+    },
+    {
+      "id": "ra.img3",
+      "arquivo": "public/resource-allocation/discussions.webp",
+      "secao": "Resource Allocation",
+      "formato": "webp",
+      "largura": 1014,
+      "altura": 334,
+      "caixa_renderizada": "object-contain",
+      "novo": null
+    },
+    {
+      "id": "ra.img4",
+      "arquivo": "public/resource-allocation/notifications.webp",
+      "secao": "Resource Allocation",
+      "formato": "webp",
+      "largura": 978,
+      "altura": 840,
+      "caixa_renderizada": "object-contain",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.jira",
+      "arquivo": "public/logos/jira.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 58,
+      "altura": 59,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.excel",
+      "arquivo": "public/logos/excel.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 66,
+      "altura": 62,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.notion",
+      "arquivo": "public/logos/notion.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 63,
+      "altura": 66,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.word",
+      "arquivo": "public/logos/word.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 64,
+      "altura": 62,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.monday",
+      "arquivo": "public/logos/monday.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 66,
+      "altura": 40,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.drive",
+      "arquivo": "public/logos/drive.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 58,
+      "altura": 51,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "ra.icone.asana",
+      "arquivo": "public/logos/asana.svg",
+      "secao": "Resource Allocation",
+      "formato": "svg (ícone em caixa 64-80px)",
+      "largura": 57,
+      "altura": 53,
+      "caixa_renderizada": "48x48",
+      "novo": null
+    },
+    {
+      "id": "depo.card1.foto",
+      "arquivo": "public/testimonials/amy-chase.webp",
+      "secao": "Depoimentos",
+      "formato": "webp",
+      "largura": 1200,
+      "altura": 1200,
+      "caixa_renderizada": "altura 288px / 328px lg, object-cover top",
+      "novo": null
+    },
+    {
+      "id": "depo.card2.foto",
+      "arquivo": "public/testimonials/jonas-kotara.webp",
+      "secao": "Depoimentos",
+      "formato": "webp",
+      "largura": 1200,
+      "altura": 800,
+      "caixa_renderizada": "altura 288px / 328px lg, object-cover top",
+      "novo": null
+    },
+    {
+      "id": "depo.card3.foto",
+      "arquivo": "public/testimonials/kevin-yam.webp",
+      "secao": "Depoimentos",
+      "formato": "webp",
+      "largura": 1200,
+      "altura": 1800,
+      "caixa_renderizada": "altura 288px / 328px lg, object-cover top",
+      "novo": null
+    },
+    {
+      "id": "depo.card4.foto",
+      "arquivo": "public/testimonials/kundo-marta.webp",
+      "secao": "Depoimentos",
+      "formato": "webp",
+      "largura": 1200,
+      "altura": 1812,
+      "caixa_renderizada": "altura 288px / 328px lg, object-cover top",
+      "novo": null
+    },
+    {
+      "id": "meta.og",
+      "arquivo": "public/og-image.jpg",
+      "secao": "Metadados (aba/SEO)",
+      "formato": "jpg",
+      "largura": 1800,
+      "altura": 945,
+      "caixa_renderizada": "Open Graph (declarado 1200x630 em consts.ts, mesma proporção 1.9:1)",
+      "novo": null
+    },
+    {
+      "id": "marca.menu",
+      "arquivo": "public/logo.svg",
+      "secao": "Menu (GLOBAL)",
+      "formato": "svg",
+      "largura": 95,
+      "altura": 18,
+      "caixa_renderizada": "94x18 (img, dark:invert); também em /login e /signup",
+      "novo": "Wordmark 'Risco Cognitivo' em DM Sans SemiBold (scripts/gerar-marca.py); ícone do template removido"
+    }
+  ],
+  "imagens_inline": [
+    {
+      "id": "marca.rodape",
+      "arquivo": "src/components/blocks/footer.tsx",
+      "secao": "Rodapé (GLOBAL)",
+      "formato": "svg inline",
+      "largura": 1570,
+      "altura": 293,
+      "novo": "Wordmark 'Risco Cognitivo' em DM Sans SemiBold, mesmo viewBox e mesmo degradê"
+    }
+  ]
+}

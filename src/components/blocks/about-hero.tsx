@@ -2,7 +2,7 @@ import { DashedLine } from "@/components/dashed-line";
 
 const stats = [
   {
-    value: "$150M",
+    value: "Oooooo Risco Cognitivo é Show ",
     label: "Raised",
   },
   {

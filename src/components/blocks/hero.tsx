@@ -12,23 +12,23 @@ import { GITHUB_URL } from "@/consts";
 
 const features = [
   {
-    title: "Tailored workflows",
-    description: "Track progress across custom issue flows for your team.",
+    title: "Planejar o caminho",
+    description: "Organizar etapas e decidir por onde começar uma tarefa.",
     icon: CircleDot,
   },
   {
-    title: "Cross-team projects",
-    description: "Collaborate across teams and departments.",
+    title: "Controle inibitório",
+    description: "Conter distrações e sustentar o seu foco.",
     icon: Blend,
   },
   {
-    title: "Milestones",
-    description: "Break projects down into concrete phases.",
+    title: "Lembrar-se",
+    description: "Manter as etapas na mente durante a ação.",
     icon: Diamond,
   },
   {
-    title: "Progress insights",
-    description: "Track scope, velocity, and progress over time.",
+    title: "Adaptar os planos",
+    description: "Mudar de direção sem perder a ordem da tarefa.",
     icon: ChartNoAxesColumn,
   },
 ];
@@ -40,17 +40,17 @@ export const Hero = () => {
         {/* Left side - Main content */}
         <div className="flex-1">
           <h1 className="text-foreground max-w-160 text-3xl tracking-tight md:text-4xl lg:text-5xl xl:whitespace-nowrap">
-            Mainline Astro template
+            Intenção vira execução.
           </h1>
 
           <p className="text-muted-foreground text-1xl mt-5 md:text-3xl">
-            Mainline is an open-source website template built with shadcn/ui,
-            Tailwind 4 & Astro 5
+            Você sabe o que precisa fazer, mas nem sempre consegue sair do plano
+            e ir para a ação?
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-4 lg:flex-nowrap">
             <Button asChild>
-              <a href={GITHUB_URL}>Get template</a>
+              <a href={GITHUB_URL}>Abrir o mapa</a>
             </Button>
             <Button
               variant="outline"
@@ -61,7 +61,7 @@ export const Hero = () => {
                 href="https://shadcnblocks.com"
                 className="max-w-56 truncate text-start md:max-w-none"
               >
-                Built by shadcnblocks.com
+                Gestão de risco cognitivo
                 <ArrowRight className="stroke-3" />
               </a>
             </Button>
@@ -97,14 +97,61 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="mt-12 max-lg:ml-6 max-lg:h-[550px] max-lg:overflow-hidden md:mt-20 lg:container lg:mt-24">
-        <div className="relative h-[793px] w-full">
-          <img
-            src="/hero.webp"
-            alt="hero"
-            className="w-full rounded-2xl object-cover object-left-top shadow-lg max-lg:rounded-tr-none"
-          />
+      <div className="container mt-12 md:mt-20 lg:mt-24">
+        <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+          <h2 className="text-2xl tracking-tight md:text-3xl">O cérebro por trás da execução.</h2>
+          <p className="text-muted-foreground max-w-sm text-sm leading-relaxed">
+            Anatomia, estruturas e conexões neurais em imagens ilustrativas.
+          </p>
         </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          {[
+            {
+              src: "/brain-visuals/anatomia-lateral.webp",
+              eyebrow: "01 · Anatomia",
+              label: "Estruturas cerebrais",
+              alt: "Ilustração anatômica lateral do encéfalo e da região cervical",
+            },
+            {
+              src: "/brain-visuals/atlas-encefalico.webp",
+              eyebrow: "02 · Contexto",
+              label: "Visão em camadas",
+              alt: "Atlas anatômico ilustrado de estruturas encefálicas e cervicais",
+            },
+            {
+              src: "/brain-visuals/rede-sinaptica.webp",
+              eyebrow: "03 · Conexões",
+              label: "Rede neural",
+              alt: "Ilustração em malha de uma conexão entre células nervosas",
+            },
+          ].map((visual) => (
+            <figure
+              key={visual.src}
+              className="bg-background overflow-hidden rounded-3xl border shadow-sm"
+            >
+              <div className="bg-[#F7F7F7] aspect-[4/3] overflow-hidden p-3">
+                <img
+                  src={visual.src}
+                  alt={visual.alt}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <figcaption className="border-t p-5">
+                <span className="text-muted-foreground font-mono text-xs uppercase tracking-wider">
+                  {visual.eyebrow}
+                </span>
+                <h3 className="mt-2 text-xl font-semibold tracking-tight">
+                  {visual.label}
+                </h3>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+        <p className="text-muted-foreground mt-5 text-xs leading-relaxed">
+          Referências ilustrativas; não representam uma localização isolada das funções executivas nem permitem diagnóstico.
+        </p>
       </div>
     </section>
   );

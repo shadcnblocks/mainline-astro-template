@@ -17,26 +17,26 @@ import { cn } from "@/lib/utils";
 
 const ITEMS = [
   {
-    label: "Features",
+    label: "Recursos",
     href: "#features",
     dropdownItems: [
       {
-        title: "Modern product teams",
+        title: "Entenda sua execução",
         href: "/#feature-modern-teams",
         description:
-          "Mainline is built on the habits that make the best product teams successful",
+          "Explore as relações entre funções executivas, demandas e estratégias úteis.",
       },
       {
-        title: "Resource Allocation",
+        title: "Estratégia de apoio",
         href: "/#resource-allocation",
-        description: "Mainline your resource allocation and execution",
+        description: "Da intenção à execução, com estratégia e apoio.",
       },
     ],
   },
-  { label: "About Us", href: "/about" },
-  { label: "Pricing", href: "/pricing" },
+  { label: "Proposta", href: "/about" },
+  { label: "Começar", href: "/pricing" },
   { label: "FAQ", href: "/faq" },
-  { label: "Contact", href: "/contact" },
+  { label: "Contato", href: "/contact" },
 ];
 
 export const Navbar = () => {
@@ -135,7 +135,7 @@ export const Navbar = () => {
             className="text-muted-foreground relative flex size-8 lg:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <span className="sr-only">Open main menu</span>
+            <span className="sr-only">Menu principal</span>
             <div className="absolute top-1/2 left-1/2 block w-[18px] -translate-x-1/2 -translate-y-1/2">
               <span
                 aria-hidden="true"

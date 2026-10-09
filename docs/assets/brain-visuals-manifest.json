@@ -1,0 +1,33 @@
+{
+  "id": "RC-NEURO-VISUALS-001",
+  "version": "1.0.0",
+  "status": "RELEASE_CANDIDATE",
+  "assets": [
+    {
+      "path": "public/brain-visuals/anatomia-lateral.webp",
+      "source": "IMG_3316.jpeg",
+      "width": 960,
+      "height": 960,
+      "sha256": "ac39132532bc7b875f5e785d22073ca9bfb41c93db5accd6091cb8bcb413a1a4"
+    },
+    {
+      "path": "public/brain-visuals/atlas-encefalico.webp",
+      "source": "IMG_3318.jpeg",
+      "width": 1200,
+      "height": 1325,
+      "sha256": "308879e60b68a53430de8e49688e75fe0ae19c37e2d9e95fc30a719ee55432de"
+    },
+    {
+      "path": "public/brain-visuals/rede-sinaptica.webp",
+      "source": "IMG_3309.jpeg",
+      "width": 900,
+      "height": 900,
+      "sha256": "b5b090f7ddf4c183a423917af41bba7e44698c4e86af61ae7fc2dacb842692a9"
+    }
+  ],
+  "notes": [
+    "Referências ilustrativas, não diagnósticas.",
+    "Marca d'água original mantida na imagem atlas-encefalico.webp.",
+    "Verificar licença de publicação de materiais de terceiros."
+  ]
+}

@@ -8,52 +8,52 @@ import { cn } from "@/lib/utils";
 
 const categories = [
   {
-    title: "Support",
+    title: "Básicos",
     questions: [
       {
-        question: "How do I update my account without breaking my laptop?",
+        question: "O mapa cognitivo faz algum tipo de diagnóstico médico?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "Posso usar o mapa no lugar de uma avaliação médica?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "O site substitui um acompanhamento?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
     ],
   },
   {
-    title: "Your account",
+    title: "Sobre o mapa",
     questions: [
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "Posso usar o mapa no lugar de uma avaliação médica?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "O site substitui um acompanhamento?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
     ],
   },
   {
-    title: "Other questions",
+    title: "Outras questões",
     questions: [
       {
-        question: "Is support free, or do I need to Google everything?",
+        question: "Posso usar o mapa no lugar de uma avaliação médica?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
       {
-        question: "Are you going to be subsumed by AI?",
+        question: "O site substitui um acompanhamento?",
         answer:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptates deserunt officia temporibus dignissimos.",
+          "Não. O mapa organiza uma forma operacional de ler a execução. Não é diagnóstico e não substitui avaliação clínica.",
       },
     ],
   },
@@ -75,17 +75,17 @@ export const FAQ = ({
           <div className="space-y-4">
             {headerTag === "h1" ? (
               <h1 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+                Dúvidas comuns
               </h1>
             ) : (
               <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-                Got Questions?
+                Dúvidas comuns
               </h2>
             )}
             <p className="text-muted-foreground max-w-md leading-snug lg:mx-auto">
-              If you can't find what you're looking for,{" "}
+              Se não encontrou aqui o que está buscando,{" "}
               <a href="/contact" className="underline underline-offset-4">
-                get in touch
+                fale conosco
               </a>
               .
             </p>

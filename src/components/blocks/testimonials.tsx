@@ -15,59 +15,59 @@ import { cn } from "@/lib/utils";
 
 const items = [
   {
-    quote: "We're misusing Mainline as a CRM and it still works!",
-    author: "Amy Chase",
-    role: "PM",
-    company: "Mercury Finance",
+    quote: "O tempo voa e os prazos se acumulam ao longo do dia.",
+    author: "Iniciação",
+    role: "TI",
+    company: "Situação típica",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "I was able to replace 80% of my team with Mainline bots.",
-    author: "Jonas Kotara",
-    role: "Lead Engineer",
-    company: "Mercury Finance",
+    quote: "Uma tarefa fácil vira várias e não sei por onde começar.",
+    author: "Planejamento",
+    role: "rotina diária",
+    company: "Situação típica",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Founder Mode is hard enough without having a really nice PM app.",
-    author: "Kevin Yam",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "Começo, interrompo, retomo e logo perco o ponto em que eu parei.",
+    author: "Distração",
+    role: "estudos",
+    company: "Situação típica",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "I can use the tool as a substitute from my PM.",
-    author: "Kundo Marta",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "Eu inicio, paro, troco de rumo e perco o foco.",
+    author: "Memorização",
+    role: "estudos",
+    company: "Situação típica",
     image: "/testimonials/kundo-marta.webp",
   },
   {
-    quote: "We're misusing Mainline as a CRM and it still works!",
-    author: "Amy Chase",
-    role: "PM",
-    company: "Mercury Finance",
+    quote: "O tempo voa e os prazos se acumulam ao longo do dia.",
+    author: "Iniciação",
+    role: "TI",
+    company: "Situação típica",
     image: "/testimonials/amy-chase.webp",
   },
   {
-    quote: "I was able to replace 80% of my team with Mainline bots.",
-    author: "Jonas Kotara",
-    role: "Lead Engineer",
-    company: "Mercury Finance",
+    quote: "Uma tarefa fácil vira várias e não sei por onde começar.",
+    author: "Planejamento",
+    role: "rotina diária",
+    company: "Situação típica",
     image: "/testimonials/jonas-kotara.webp",
   },
   {
-    quote: "Founder Mode is hard enough without having a really nice PM app.",
-    author: "Kevin Yam",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "Começo, interrompo, retomo e logo perco o ponto em que eu parei.",
+    author: "Distração",
+    role: "estudos",
+    company: "Situação típica",
     image: "/testimonials/kevin-yam.webp",
   },
   {
-    quote: "I can use the tool as a substitute from my PM.",
-    author: "Kundo Marta",
-    role: "Founder",
-    company: "Mercury Finance",
+    quote: "Eu inicio, paro, troco de rumo e perco o foco.",
+    author: "Memorização",
+    role: "estudos",
+    company: "Situação típica",
     image: "/testimonials/kundo-marta.webp",
   },
 ];
@@ -85,15 +85,15 @@ export const Testimonials = ({
         <div className="container">
           <div className="space-y-4">
             <h2 className="text-2xl tracking-tight md:text-4xl lg:text-5xl">
-              Trusted by product builders
+              Cenas que talvez você viva.
             </h2>
             <p className="text-muted-foreground max-w-md leading-snug">
-              Mainline is built on the habits that make the best product teams
-              successful: staying focused, moving quickly, and always aiming for
-              high-quality work.
+              Para algumas pessoas, essas dificuldades podem estar relacionadas
+              a demandas de planejar, organizar, iniciar, lembrar, controlar
+              distrações e adaptar.
             </p>
             <Button variant="outline" className="shadow-md">
-              Read our Customer Stories <ArrowRight className="size-4" />
+              Ler o artigo sobre riscos <ArrowRight className="size-4" />
             </Button>
           </div>
 

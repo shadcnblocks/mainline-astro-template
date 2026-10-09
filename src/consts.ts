@@ -1,20 +1,20 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = "Mainline - Modern Astro Template";
+export const SITE_TITLE = "Risco Cognitivo - Mapa Cognitivo";
 export const SITE_DESCRIPTION =
-  "A modern, fully featured Astro template built with Shadcn/UI, TailwindCSS and TypeScript, perfect for your next web application.";
+  "Gestão e controle de riscos cognitivos: entenda funções executivas, demandas e estratégias para transformar a intenção em ações.";
 
 export const GITHUB_URL =
   "https://github.com/shadcnblocks/mainline-astro-template";
 
 export const SITE_METADATA = {
   title: {
-    default: "Mainline - Modern Astro Template",
+    default: "Risco Cognitivo - Mapa Cognitivo",
     template: "%s | Mainline",
   },
   description:
-    "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+    "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
   keywords: [
     "Astro",
     "astro template",
@@ -49,24 +49,24 @@ export const SITE_METADATA = {
     shortcut: [{ url: "/favicon/favicon.ico" }],
   },
   openGraph: {
-    title: "Mainline - Modern Astro Template",
+    title: "Risco Cognitivo - Mapa Cognitivo",
     description:
-      "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+      "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
     siteName: "Mainline",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Mainline - Modern Astro Template",
+        alt: "Risco Cognitivo - Mapa Cognitivo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mainline - Modern Astro Template",
+    title: "Risco Cognitivo - Mapa Cognitivo",
     description:
-      "A modern Astro template built with shadcn/ui, Tailwind & MDX. Open source - MIT License.",
+      "Risco Cognitivo ajuda a transformar intenções em execução, uma função executiva por vez.",
     images: ["/og-image.jpg"],
     creator: "@ausrobdev",
   },
